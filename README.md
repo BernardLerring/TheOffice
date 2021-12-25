@@ -1,9 +1,8 @@
 # TheOffice
 
-## A Lot To Swap Website
+## The Office Quiz
 
-This is the main website for the produce and homegrown fruit and veg swap meet community called A Lot To Swap. It will be navigatable on a variety of devices making it simple for potential partners to join the community.
-
+This is the main website for the a quiz based on the UK sitcom The Office. For fans of the show. 
 Responsive images here
 
 ## User Experience
@@ -24,9 +23,7 @@ Responsive images here
 
 ### Frequent user goals:
 
-- I want to see an updated photo gallery with the most recent photos of swap meets.
-
-- I want to see a constantly updated list of new swap meets and the venues.
+- I want to see a variety of different difficulty levels so I can continue to challenge myself.
 
 ## Design
 
