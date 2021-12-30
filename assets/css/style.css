@@ -1,3 +1,17 @@
-body {
-    background-color: aqua;
+.page {
+    background-color: #FAFAFA;;
+}
+
+.heading {
+    font-family: Helvetica Bold, Arial, Sans-Serif;
+    color: #444444;
+    font-size: 500%;
+    text-align: center;
+}
+
+.quiz-title {
+    font-family: Helvetica Bold, Arial, Sans-Serif;
+    color: #444444;
+    font-size: 200%;
+    text-align: center;
 }
