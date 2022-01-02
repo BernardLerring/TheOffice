@@ -19,7 +19,7 @@ function buildQuiz(){
       }
 
       output.push(
-        `<div class = "question"> ${currentQuestion.question}</div>
+        `<div class = "question"> ${currentQuestion.question} </div>
         <div class = "answers"> ${answers.join('')} </div>`
       );
     }
@@ -30,7 +30,7 @@ function buildQuiz(){
 
 function showResults(){
 
-  const answerContainers = quizContainer.querySelectorAll('answers');
+  const answerContainers = quizContainer.querySelectorAll('.answers');
 
   let numCorrect = 0;
 
@@ -44,12 +44,12 @@ function showResults(){
 
       numCorrect++;
 
-      answerContainers[questionNumber].getElementsByClassName.color = "green";
+      answerContainers[questionNumber].style.color = 'green';
     }
     
     else{
 
-      answerContainers[questionNumber].getElementsByClassName.color = "red";
+      answerContainers[questionNumber].style.color = 'red';
     }
   });
 
@@ -69,6 +69,7 @@ const myQuestions = [
     },
     correctAnswer: "b"
   },
+
   {
     question: "What is the name of David Brent's former band?",
     answers: {
@@ -78,6 +79,7 @@ const myQuestions = [
     },
     correctAnswer: "a"
   },
+
   {
     question: "What gift does Tim's mum give him for his 30th birthday?",
     answers: {
@@ -87,6 +89,7 @@ const myQuestions = [
     },
     correctAnswer: "a"
   },
+
   {
     question: "In what romantic and thrifty way does Lee propose to Dawn?",
     answers: {
@@ -96,6 +99,7 @@ const myQuestions = [
     },
     correctAnswer: "b"
   },
+
   {
     question: "What does Keith put as his only weakness on an employee evaluation form?",
     answers: {
