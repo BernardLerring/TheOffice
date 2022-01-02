@@ -108,11 +108,27 @@ const myQuestions = [
         c: "Eczema"
     },
     correctAnswer: "c"
+  },
+
+  {
+    question: "Which famous author do Ricky and David have a back and forth over to try and prove their knowledge?".bold(),
+    answers: {
+        a: "JK Rowling",
+        b: "Fyodor Dostoevsky",
+        c: "Roald Dahl"
+    },
+    correctAnswer: "b"
   }
 ];
 
 buildQuiz();
 
 submitButton.addEventListener('click', showResults);
+
+document.getElementById("submit").addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+      showResults();
+  }
+});
 
 
