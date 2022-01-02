@@ -61,7 +61,7 @@ const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 const myQuestions = [
   {
-    question: "Gareth gets irrationally upset when Tim puts his stapler in the jelly. Why doesn't Gareth like jelly?",
+    question: "Gareth gets irrationally upset when Tim puts his stapler in the jelly. Why doesn't Gareth like jelly?".bold(),
     answers: {
         a: "He got sick from eating too much of it when he was younger", 
         b: "He doesn't trust the way it moves",
@@ -71,7 +71,7 @@ const myQuestions = [
   },
 
   {
-    question: "What is the name of David Brent's former band?",
+    question: "What is the name of David Brent's former band?".bold(),
     answers: {
         a: "Foregone Conclusion",
         b: "Equality Street",
@@ -81,7 +81,7 @@ const myQuestions = [
   },
 
   {
-    question: "What gift does Tim's mum give him for his 30th birthday?",
+    question: "What gift does Tim's mum give him for his 30th birthday?".bold(),
     answers: {
         a: "Hat FM",
         b: "A giant inflatable penis",
@@ -91,7 +91,7 @@ const myQuestions = [
   },
 
   {
-    question: "In what romantic and thrifty way does Lee propose to Dawn?",
+    question: "In what romantic and thrifty way does Lee propose to Dawn?".bold(),
     answers: {
         a: "Using a Haribo sweet ring",
         b: "An advert in the paper",
@@ -101,7 +101,7 @@ const myQuestions = [
   },
 
   {
-    question: "What does Keith put as his only weakness on an employee evaluation form?",
+    question: "What does Keith put as his only weakness on an employee evaluation form?".bold(),
     answers: {
         a: "Kissing",
         b: "Eating",
