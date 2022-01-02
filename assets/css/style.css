@@ -15,3 +15,23 @@
     font-size: 200%;
     text-align: center;
 }
+
+.quiz-area {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    height: 80%;
+    width: 50%;
+}
+
+#submit {
+    font-family: Helvetica Bold, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #444444;
+    padding: 1%;
+}
+
+#score { 
+    font-family: Helvetica Bold, Arial, Sans-Serif;
+    color: #444444;
+    text-align: center;
+}
