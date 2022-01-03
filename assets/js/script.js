@@ -68,6 +68,7 @@ function showResults(){
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+const restartButton = document.getElementById('restart');
 
 //the quiz questions
 
@@ -176,6 +177,7 @@ buildQuiz();
 //when submit button is pressed, show results
 
 submitButton.addEventListener('click', showResults);
+restartButton.addEventListener('click', buildQuiz);
 
 
 

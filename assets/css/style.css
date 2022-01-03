@@ -39,6 +39,14 @@
     font-size: 200%;
 }
 
+#restart {
+    font-family: Helvetica Bold, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #444444;
+    padding: 1%;
+    font-size: 200%;
+}
+
 #results { 
     font-family: Helvetica Bold, Arial, Sans-Serif;
     color: #444444;
