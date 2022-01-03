@@ -1,4 +1,11 @@
+/* The following tutorial was used to help build this script:
+https://www.sitepoint.com/simple-javascript-quiz/.
+All elements of the tutorial have been used to help code the quiz
+*/
+
 function buildQuiz(){
+
+  //a variable to store the HTML output
 
   const output = [];
 
@@ -8,6 +15,8 @@ function buildQuiz(){
       const answers = [];
 
       for(letter in currentQuestion.answers){
+
+        //radio buttons with a label to allow users to press button and text
 
         answers.push(
           `<label>
@@ -59,6 +68,9 @@ function showResults(){
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+
+//the quiz questions
+
 const myQuestions = [
   {
     question: "Gareth gets irrationally upset when Tim puts his stapler in the jelly. Why doesn't Gareth like jelly?".bold(),
@@ -157,14 +169,14 @@ const myQuestions = [
   },
 ];
 
+//display the quiz on website loading
+
 buildQuiz();
+
+//when submit button is pressed, show results
 
 submitButton.addEventListener('click', showResults);
 
-document.getElementById("submit").addEventListener("keydown", function(event) {
-  if (event.key === "Enter") {
-      showResults();
-  }
-});
+
 
 
