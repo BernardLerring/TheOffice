@@ -118,7 +118,43 @@ const myQuestions = [
         c: "Roald Dahl"
     },
     correctAnswer: "b"
-  }
+  },
+  {
+    question: "What is the name of David's boss?".bold(),
+    answers: {
+        a: "Jennifer Taylor-Clarke",
+        b: "Keira Kennedy-Smith",
+        c: "Mira Wernham-Hogg"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "When giving the temp a tour of the office, David Brent asks someone to get batteries for what type of toy?".bold(),
+    answers: {
+        a: "Dirty Bertie",
+        b: "Billy Big Bass",
+        c: "Monkey"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "What type of car does Gareth brag about doing up?".bold(),
+    answers: {
+        a: "MG",
+        b: "Porsche",
+        c: "TR3"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "What are the names of the parents of Donna the temp?".bold(),
+    answers: {
+        a: "John and Jane",
+        b: "Ron and Elaine",
+        c: "Dave and Beth"
+    },
+    correctAnswer: "b"
+  },
 ];
 
 buildQuiz();

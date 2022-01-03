@@ -9,6 +9,12 @@
     text-align: center;
 }
 
+.gareth {
+    width: 60%;
+    margin: auto;
+    display: block;    
+}
+
 .quiz-title {
     font-family: Helvetica Bold, Arial, Sans-Serif;
     color: #444444;
