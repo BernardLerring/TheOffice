@@ -9,8 +9,12 @@ function buildQuiz(){
 
   const output = [];
 
+  //each question
+
   myQuestions.forEach(
     (currentQuestion, questionNumber) => {
+
+      //variable to store list of possible answers
 
       const answers = [];
 
@@ -27,40 +31,60 @@ function buildQuiz(){
         );
       }
 
+      //add this question and answers to the output
+
       output.push(
-        `<div class = "question"> ${currentQuestion.question} </div>
-        <div class = "answers"> ${answers.join('')} </div>`
+          `<div class = "question"> ${currentQuestion.question} </div>
+          <div class = "answers"> ${answers.join('')} </div>`
       );
     }
   );
+
+  //combine outputs to one HTML string and show on the page
 
   quizContainer.innerHTML = output.join('');
 }
 
 function showResults(){
 
+  // get answer containers from quiz
+
   const answerContainers = quizContainer.querySelectorAll('.answers');
+
+  // track user answers
 
   let numCorrect = 0;
 
   myQuestions.forEach((currentQuestion, questionNumber) => {
 
+    // find the selected answer
+
     const answerContainer = answerContainers[questionNumber];
     const selector = `input[name=question${questionNumber}]:checked`;
     const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
+    //if the answer is correct
+
     if(userAnswer === currentQuestion.correctAnswer){
 
+      //add one to list of correct answers
+
       numCorrect++;
+
+      // and color that question green
 
       answerContainers[questionNumber].style.color = 'green';
     }
     
     else{
 
+      // if no answer submitted or answer wrong, color red 
+
       answerContainers[questionNumber].style.color = 'red';
     }
   });
+
+  // show the number of correct answers out of the total
 
   resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 }
@@ -177,7 +201,11 @@ buildQuiz();
 //when submit button is pressed, show results
 
 submitButton.addEventListener('click', showResults);
+
+//when restart button is pressed, game reloads
+
 restartButton.addEventListener('click', buildQuiz);
+
 
 
 
