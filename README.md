@@ -102,7 +102,7 @@ image here
 
 - [MentalFloss](https://www.mentalfloss.com/quizzes/13559/office-quiz-uk-edition) was used for some of the quiz questions.
 
-- [SitePoint](https://www.sitepoint.com/simple-javascript-quiz/) was used for the main quiz structure, pagination and code used on my site.
+- [SitePoint](https://www.sitepoint.com/simple-javascript-quiz/) was used for the main quiz structure and code used on my site.
 
 ## Testing
 
@@ -126,19 +126,13 @@ image here
 
 ## Fixed Bugs 
 
-- After running the W3C html validator, I converted the Philosophy and Locations headings to h2 from h1 to avoid issues in the CSS styling of the code. 
 
-- I removed an ALotToSwap logo from the header bar as it was causing issues with image sizing in the Pictures section, as well as being pushed from the page altogether when the size of the screen was shrunk beyond a certain point.
 
 - All media queries resolved size and flow issues on smaller devices.
 
 ## Unfixed Bugs
 
-- The nav menu is displayed in the wrong order when the site is displayed on smaller screen sizes.
 
-- The social media icons in the footer are not perfectly centred on smaller screens.
-
-- One picture disappears from the pictures gallery at 470px and below.
 
 ## Deployment
 
@@ -166,7 +160,9 @@ It can also be found at [TheOfficeQuiz](https://bernardlerring.github.io/
 
 ### Personal Development
 
+- I have struggled to get my head around Javascript, so the site is quite simplistic. With the tight timeframe to get this project submitted I played it safe, but would like to revisit Javascript at another time to try and fully understand the syntax, layout and functions used.
 
+- 
 
 ### Thanks
 
