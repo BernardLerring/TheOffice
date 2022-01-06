@@ -89,6 +89,37 @@
         font-size: 100%;
         text-align: center;
     }
-    
+
+    #submit {
+        font-size: 150%;
+    }
+
+    #restart {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .heading {
+        font-size: 300%;
+        text-align: center;
+    }
+
+    .quiz-title {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    #quiz {
+        font-size: 75%;
+    }
+
+    #submit {
+        font-size: 100%;
+    }
+
+    #restart {
+        font-size: 100%;
+    }
 }
 
