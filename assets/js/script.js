@@ -5,6 +5,10 @@ All elements of the tutorial have been used to help code the quiz
 
 function buildQuiz(){
 
+  //add function to clear previous result when refresh key is pressed
+
+  document.getElementById("results").value = "";
+
   //a variable to store the HTML output
 
   const output = [];
@@ -205,6 +209,12 @@ submitButton.addEventListener('click', showResults);
 //when restart button is pressed, game reloads
 
 restartButton.addEventListener('click', buildQuiz);
+
+const elem = document.getElementById("input");
+
+var input = document.getElementById("myInput");
+
+
 
 
 

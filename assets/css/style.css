@@ -69,3 +69,26 @@
     margin-top: 2%;
     margin-bottom: 5%;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1000px) {
+    .heading {
+        font-size: 500%;
+        text-align: center;
+    }
+
+    .quiz-title {
+        font-size: 250%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #quiz {
+        font-size: 100%;
+        text-align: center;
+    }
+    
+}
+
