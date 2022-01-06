@@ -1,6 +1,6 @@
 /* The following tutorial was used to help build this script:
 https://www.sitepoint.com/simple-javascript-quiz/.
-All elements of the tutorial have been used to help code the quiz
+All elements of the tutorial have been used to help code the quiz.
 */
 
 function buildQuiz(){
@@ -210,9 +210,11 @@ submitButton.addEventListener('click', showResults);
 
 restartButton.addEventListener('click', buildQuiz);
 
-const elem = document.getElementById("input");
 
-var input = document.getElementById("myInput");
+
+
+
+
 
 
 
