@@ -4,7 +4,7 @@
 
 This is the main website for the a quiz based on the UK sitcom The Office. For fans of the show. 
 
-Responsive images here
+<img width="1168" alt="Screen Shot 2022-01-06 at 9 09 54 PM" src="https://user-images.githubusercontent.com/92179145/148652382-b9ee4f2d-f8bf-4f09-b99e-e5f4572cac06.png">
 
 ## User Experience
 
@@ -56,31 +56,33 @@ images here
 
 - The background colour, and the font colours chosen stand out well making it easy for the user to see where they are and what they are doing.
 
-image here
+<img width="972" alt="Screen Shot 2022-01-08 at 4 46 43 PM" src="https://user-images.githubusercontent.com/92179145/148652516-55cc4640-7ea8-480f-a641-bdda3ab8b1a0.png">
 
 ### Main image
 
 - The image chosen is a screen grab from an online quiz from the "Quiz Night" episode.
 
-image here
+<img width="1047" alt="Screen Shot 2022-01-08 at 4 46 53 PM" src="https://user-images.githubusercontent.com/92179145/148652523-4d8a3e21-42c4-414f-88b1-21d29412c03c.png">
 
 ### Secondary Heading
 
 - A fun quote from the afforementioned episode that fans of the show will be aware of. It enhances the idea of the quiz.
 
-image here
+<img width="714" alt="Screen Shot 2022-01-08 at 4 47 02 PM" src="https://user-images.githubusercontent.com/92179145/148652534-63b86280-1307-443c-9a23-d390a5e3b684.png">
 
 ### Questions
 
 - A set of questions for fans of the show, from all episodes and eras of the show. Radio buttons can be clicked, or the text itself, with simple red and green feedback for wrong and right answers.
 
-image here
+<img width="1301" alt="Screen Shot 2022-01-08 at 4 47 40 PM" src="https://user-images.githubusercontent.com/92179145/148652543-e7d12e87-aac8-474f-92d3-e4fcbf7b0a7d.png">
 
-### Submit Button
+<img width="1262" alt="Screen Shot 2022-01-08 at 4 47 55 PM" src="https://user-images.githubusercontent.com/92179145/148652548-6942ad12-eaa7-4b79-93ca-90f5ccfc61f2.png">
 
-- Simple submit button with the main site font. 
+### Submit and restart quiz buttons
 
-image here
+- Simple buttons with the main site font. 
+
+<img width="470" alt="Screen Shot 2022-01-08 at 4 48 09 PM" src="https://user-images.githubusercontent.com/92179145/148652563-0c751978-095b-461c-af90-337ccb62ef21.png">
 
 ## Technology used
 
@@ -124,7 +126,7 @@ image here
 
 - I confirm that the site is easy to read and navigate by passing it through the Lighthouse tool on DevTools.
 
-image here
+<img width="255" alt="Screen Shot 2022-01-08 at 4 45 43 PM" src="https://user-images.githubusercontent.com/92179145/148652422-a97de7af-5916-4f77-8e0e-0290593f7185.png">
 
 ## Fixed Bugs 
 
