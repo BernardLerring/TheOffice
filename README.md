@@ -42,7 +42,7 @@ The image is a screen grab from the episode of the show in which they partake in
 
 ## Wireframes/Sketches
 
-
+images here
 
 ## Features
 
@@ -120,19 +120,19 @@ image here
 
 - I confirm that no errors were found when passing through the Jigsaw CSS validator.
 
+- I confirm that no errors were found when passing it through the JSHint Javascript validator.
+
 - I confirm that the site is easy to read and navigate by passing it through the Lighthouse tool on DevTools.
 
 image here
 
 ## Fixed Bugs 
 
-
-
 - All media queries resolved size and flow issues on smaller devices.
 
 ## Unfixed Bugs
 
-
+- The score from the previous game is still visible after the restart quiz button is pushed.
 
 ## Deployment
 
