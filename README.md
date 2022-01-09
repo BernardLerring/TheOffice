@@ -142,7 +142,7 @@ The image is a screen grab from the episode of the show in which they partake in
 
 - The score from the previous game is still visible after the restart quiz button is pushed.
 
-- When I created the pagination to produce one question at a time, it broke the "restart quiz" function, so I did not include the paginatiuon in the final quiz.
+- When I created the pagination to produce one question at a time, it broke the "restart quiz" function. I was unable to work out what caused this so I did not include the pagination in the final quiz.
 
 ## Deployment
 
@@ -171,6 +171,10 @@ It can also be found at [TheOfficeQuiz](https://bernardlerring.github.io/
 ### Personal Development
 
 - I have struggled to get my head around Javascript, so the site is quite simplistic. With the tight timeframe to get this project submitted I played it safe, but would like to revisit Javascript at another time to try and fully understand the syntax, layout and functions used.
+
+- Future versions of the site would have updated questions and an area to submit your own questions.
+
+- A future site would also include a leaderboard to store multiple users scores.
 
 ### Thanks
 
