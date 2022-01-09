@@ -42,7 +42,13 @@ The image is a screen grab from the episode of the show in which they partake in
 
 ## Wireframes/Sketches
 
-images here
+![IMG_0282](https://user-images.githubusercontent.com/92179145/148697477-53bea8e4-1672-42cb-8b9a-72ce4fa19864.jpg)
+
+![IMG_0283](https://user-images.githubusercontent.com/92179145/148697483-239d6bcb-8f43-4cb6-8460-f9c016856660.jpg)
+
+![IMG_0284](https://user-images.githubusercontent.com/92179145/148697485-44d45cbf-7f74-4ba2-bc44-90b4bf2e7189.jpg)
+
+![IMG_0285](https://user-images.githubusercontent.com/92179145/148697490-d3849ab2-ddb1-4ce4-9bba-a42f75b38e45.jpg)
 
 ## Features
 
@@ -72,7 +78,7 @@ images here
 
 ### Questions
 
-- A set of questions for fans of the show, from all episodes and eras of the show. Radio buttons can be clicked, or the text itself, with simple red and green feedback for wrong and right answers.
+- A set of questions for fans of the show, from all episodes and eras of the show. Radio buttons can be clicked, or the text itself, with industry standard red and green feedback at the end for wrong and right answers.
 
 <img width="1301" alt="Screen Shot 2022-01-08 at 4 47 40 PM" src="https://user-images.githubusercontent.com/92179145/148652543-e7d12e87-aac8-474f-92d3-e4fcbf7b0a7d.png">
 
@@ -104,7 +110,7 @@ images here
 
 - [MentalFloss](https://www.mentalfloss.com/quizzes/13559/office-quiz-uk-edition) was used for some of the quiz questions.
 
-- [SitePoint](https://www.sitepoint.com/simple-javascript-quiz/) was used for the main quiz structure and code used on my site.
+- [SitePoint](https://www.sitepoint.com/simple-javascript-quiz/) was used for the main quiz structure and code used on my final site.
 
 ## Testing
 
@@ -136,6 +142,8 @@ images here
 
 - The score from the previous game is still visible after the restart quiz button is pushed.
 
+- When I created the pagination to produce one question at a time, it broke the "restart quiz" function, so I did not include the paginatiuon in the final quiz.
+
 ## Deployment
 
 The site was deployed to GitHub pages by following these steps:
@@ -163,8 +171,6 @@ It can also be found at [TheOfficeQuiz](https://bernardlerring.github.io/
 ### Personal Development
 
 - I have struggled to get my head around Javascript, so the site is quite simplistic. With the tight timeframe to get this project submitted I played it safe, but would like to revisit Javascript at another time to try and fully understand the syntax, layout and functions used.
-
-- 
 
 ### Thanks
 
