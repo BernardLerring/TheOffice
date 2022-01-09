@@ -48,7 +48,7 @@ The image is a screen grab from the episode of the show in which they partake in
 
 ![IMG_0284](https://user-images.githubusercontent.com/92179145/148697485-44d45cbf-7f74-4ba2-bc44-90b4bf2e7189.jpg)
 
-![IMG_0285](https://user-images.githubusercontent.com/92179145/148697490-d3849ab2-ddb1-4ce4-9bba-a42f75b38e45.jpg)
+![IMG_0290](https://user-images.githubusercontent.com/92179145/148697639-3088a774-0ad9-4419-800d-1c4d504900ba.jpg)
 
 ## Features
 
@@ -177,6 +177,3 @@ It can also be found at [TheOfficeQuiz](https://bernardlerring.github.io/
 - My Partner for being my UX companion for the site and for helping test it for me.
 
 - My mentor for his feedback and encouragement throughout the project.
-
-
-
