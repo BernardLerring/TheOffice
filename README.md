@@ -156,7 +156,7 @@ The site was deployed to GitHub pages by following these steps:
 
 4. GitHub then creates the live link for the site.
 
-It can also be found at [TheOfficeQuiz](https://bernardlerring.github.io/
+It can also be found at [TheOfficeQuiz](https://bernardlerring.github.io/TheOffice/
 
 ## Credits
 
